@@ -1,64 +1,77 @@
-<h1 align="center">🗺️ Natours</h1>
+<div align="center">
+
+# 🏔️ Natours
+
+A tour-booking backend built with Node.js, Express and MongoDB, following an MVC structure.
+
+<a href="https://github.com/miladmo68/natours"><img src="https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source code"></a>
+<a href="https://miladweb.com"><img src="https://img.shields.io/badge/Portfolio-miladweb.com-1E3A8A?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"></a>
+
+</div>
 
 <p align="center">
-  <a href="#"><b>🔗 Live Demo</b></a> •
-  <a href="https://github.com/miladmo68/natours"><b>📦 Repository</b></a>
+  <img src="./.github/preview.jpg" alt="Natours screenshot" width="100%" />
 </p>
 
-<p align="center">
-  A full-stack Node.js tour booking application scaffold structured with Express, controllers, routes, models, and utilities—ready for implementing features like tour listings, user management, bookings, reviews, and more.
-</p>
+## ✨ Features
 
----
+- REST API for tours and users
+- Express routes, controllers and models
+- MongoDB with Mongoose
 
----
+## 🛠️ Tech Stack
 
-## ​ Tech Stack
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-green?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express-gray?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4DB33D?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pug-template-orange?style=for-the-badge&logo=pug&logoColor=white" />
-  <img src="https://img.shields.io/badge/ESLint-configured-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prettier-setup-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" />
-</p>
+> [!NOTE]
+> This project needs its own backend, database or API keys, so it runs locally rather than as a static demo.
 
----
+## 🚀 Getting Started
 
-## ​ Features (Scaffold Ready)
+**Prerequisites:** [Node.js](https://nodejs.org/) 18 or newer · A MongoDB database (local or MongoDB Atlas)
 
-| Feature                        | Description |
-|-------------------------------|-------------|
-| **MVC Architecture**          | Preconfigured folders for `controllers`, `models`, and `routes` for clean structure :contentReference[oaicite:3]{index=3} |
-| **Full-Stack Potential**      | Ready for implementing tours, bookings, user auth, reviews, and more |
-| **Templating with Pug**       | Includes front-end views powered by Pug templating engine |
-| **Clean Code Setup**          | ESLint and Prettier already configured for consistent styling |
-| **Ready to Extend**           | Ideal foundation for features like Stripe payments, authentication, admin panel, etc. |
-
----
-
-<p align="center">
-  <b>👨‍💻 Author: Milad Mohammadi</b><br>
-  🌐 <a href="https://miladweb.com">Website</a> • 💼 <a href="https://linkedin.com/in/miladmo68">LinkedIn</a> • 🐙 <a href="https://github.com/miladmo68">GitHub</a>
-</p>
-
----
-
-## ​ Getting Started
+**Install and run**
 
 ```bash
-# 1) Clone the repository
 git clone https://github.com/miladmo68/natours.git
 cd natours
-
-# 2) Install backend dependencies
 npm install
+npm start
+```
 
-# 3) Set up environment variables (e.g., for DB, JWT secret)
-# Create a config.env file with appropriate values
+### Environment variables
 
-# 4) Run development server
-npm run dev or node app.js
+Create a `.env` file (or `.env.local` for Next.js) with:
 
-# 5) To deploy, include production configurations and script accordingly
+```env
+DATABASE=
+DATABASE_PASSWORD=
+PORT=
+```
+
+## 📁 Project Structure
+
+```
+natours/
+├── controllers/
+├── dev-data/
+├── models/
+├── public/
+├── routes/
+├── utils/
+├── app.js
+├── config.env
+├── eslint.config.js
+├── package.json
+└── server.js
+```
+
+## 👤 Author
+
+**Milad Mohammadi** — Frontend-Focused Full-Stack Developer, Toronto 🇨🇦
+
+[![Website](https://img.shields.io/badge/Website-miladweb.com-FF6A00?style=flat-square&logo=googlechrome&logoColor=white)](https://miladweb.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-miladmo68-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miladmo68/)
+[![GitHub](https://img.shields.io/badge/GitHub-miladmo68-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/miladmo68)
+
+<p align="center"><sub>If you like this project, consider giving it a ⭐</sub></p>
